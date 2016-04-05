@@ -1,0 +1,10 @@
+// a mixin lets you make groups of css delcarations that you want to reuse throughout your site
+// kinda like js functions
+
+@mixin border($thickness) {
+    border-width: $thickness;
+}
+
+img {
+    @include border(10px);
+}
