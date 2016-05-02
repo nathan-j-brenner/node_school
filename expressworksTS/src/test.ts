@@ -1,1 +1,0 @@
-let nate: string = "nate";
