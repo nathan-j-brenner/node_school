@@ -1,0 +1,14 @@
+{
+  "name": "javascripting",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tsc": "tsc",
+    "tsc:w": "tsc -w --outDir dist",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run tsc:w"
+  },
+  "author": "",
+  "license": "ISC"
+}
