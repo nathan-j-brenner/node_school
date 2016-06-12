@@ -1,6 +1,0 @@
-{
-  "ambientDependencies": {
-    "express": "registry:dt/express#4.0.0+20160208031452",
-    "node": "registry:dt/node#4.0.0+20160311162451"
-  }
-}
