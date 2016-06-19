@@ -1,6 +1,6 @@
 'use strict';
-var promise = new Promise((fulfill, reject)=>{
-	fulfill('I FIRED');
+var promise = new Promise((resolve, reject)=>{
+	resolve('I FIRED');
 	reject(new Error('I DID NOT FIRE'));
 });
 

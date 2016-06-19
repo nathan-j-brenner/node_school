@@ -1,6 +1,6 @@
 'use strict';
 
-var promise = new Promise((fulfill, reject)=>{
+var promise = new Promise((resolve, reject)=>{
 	setTimeout(()=>{ 
 		reject(new Error('REJECTED!'))
 	}, 300);
